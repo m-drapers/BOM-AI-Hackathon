@@ -1,0 +1,12 @@
+.playwright-mcp/
+__pycache__/
+*.pyc
+node_modules/
+.env
+data/chromadb/
+data/feedback.db
+.next/
+.venv/
+*.egg-info/
+teams/*/backend/data/
+teams/data/
