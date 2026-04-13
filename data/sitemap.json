@@ -1199,13 +1199,6 @@
   {
     "kankersoort": "baarmoederkanker",
     "section": "behandelingen",
-    "url": "https://www.kanker.nl/kankersoorten/baarmoederkanker/behandelingen/schildwachtklierprocedure-bij-baarmoederkanker",
-    "title": "Schildwachtklier-onderzoek bij baarmoederkanker",
-    "text_length": 4281
-  },
-  {
-    "kankersoort": "baarmoederkanker",
-    "section": "behandelingen",
     "url": "https://www.kanker.nl/kankersoorten/baarmoederkanker/behandelingen/uitwendige-bestraling-bij-baarmoederkanker",
     "title": "Uitwendige bestraling bij baarmoederkanker",
     "text_length": 3974
@@ -3606,13 +3599,6 @@
   },
   {
     "kankersoort": "borstkanker-bij-mannen",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/borstkanker-bij-mannen/onderzoeken/schildwachtklierprocedure-bij-borstkanker-mannen",
-    "title": "Schildwachtklier-onderzoek bij borstkanker mannen",
-    "text_length": 5283
-  },
-  {
-    "kankersoort": "borstkanker-bij-mannen",
     "section": "soorten-borstkanker",
     "url": "https://www.kanker.nl/kankersoorten/borstkanker-bij-mannen/soorten-borstkanker",
     "title": "Soorten borstkanker bij mannen",
@@ -3816,13 +3802,6 @@
   },
   {
     "kankersoort": "botkanker-botsarcoom",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/botkanker-botsarcoom/algemeen/ziekenhuizen-voor-bottumoren",
-    "title": "Ziekenhuizen voor botkanker",
-    "text_length": 1183
-  },
-  {
-    "kankersoort": "botkanker-botsarcoom",
     "section": "behandelingen",
     "url": "https://www.kanker.nl/kankersoorten/botkanker-botsarcoom/behandelingen",
     "title": "Behandeling van botkanker",
@@ -3904,13 +3883,6 @@
     "url": "https://www.kanker.nl/kankersoorten/botkanker-botsarcoom/diagnose/de-diagnose-botkanker",
     "title": "De diagnose botkanker",
     "text_length": 1709
-  },
-  {
-    "kankersoort": "botkanker-botsarcoom",
-    "section": "diagnose",
-    "url": "https://www.kanker.nl/kankersoorten/botkanker-botsarcoom/diagnose/in-gesprek-met-de-arts-over-botkanker",
-    "title": "In gesprek met je arts over botkanker",
-    "text_length": 1913
   },
   {
     "kankersoort": "botkanker-botsarcoom",
@@ -12084,13 +12056,6 @@
   {
     "kankersoort": "oogkanker",
     "section": "behandelingen",
-    "url": "https://www.kanker.nl/kankersoorten/oogkanker/behandelingen/immunotherapie-bij-oogkanker",
-    "title": "Immunotherapie bij oogkanker",
-    "text_length": 2306
-  },
-  {
-    "kankersoort": "oogkanker",
-    "section": "behandelingen",
     "url": "https://www.kanker.nl/kankersoorten/oogkanker/behandelingen/keuzes-maken-over-je-behandeling-bij-oogkanker",
     "title": "Keuzes maken over je behandeling bij oogkanker",
     "text_length": 1753
@@ -13708,13 +13673,6 @@
   {
     "kankersoort": "primaire-tumor-onbekend-pto",
     "section": "behandelingen",
-    "url": "https://www.kanker.nl/kankersoorten/primaire-tumor-onbekend-pto/behandelingen/behandeling-als-de-plaats-van-de-primaire-tumor-onbekend-blijft",
-    "title": "Behandeling als de plaats van de primaire tumor onbekend blijft",
-    "text_length": 1745
-  },
-  {
-    "kankersoort": "primaire-tumor-onbekend-pto",
-    "section": "behandelingen",
     "url": "https://www.kanker.nl/kankersoorten/primaire-tumor-onbekend-pto/behandelingen/behandeling-van-primaire-tumor-onbekend",
     "title": "Behandelingen bij primaire tumor onbekend (PTO)",
     "text_length": 2643
@@ -13771,13 +13729,6 @@
   {
     "kankersoort": "primaire-tumor-onbekend-pto",
     "section": "na-de-uitslag",
-    "url": "https://www.kanker.nl/kankersoorten/primaire-tumor-onbekend-pto/na-de-uitslag/de-diagnose-primaire-tumor-onbekend-pto",
-    "title": "De diagnose primaire tumor onbekend (PTO)",
-    "text_length": 11077
-  },
-  {
-    "kankersoort": "primaire-tumor-onbekend-pto",
-    "section": "na-de-uitslag",
     "url": "https://www.kanker.nl/kankersoorten/primaire-tumor-onbekend-pto/na-de-uitslag/in-gesprek-met-je-arts-over-primaire-tumor-onbekend-pto",
     "title": "In gesprek met je arts over primaire tumor onbekend (PTO)",
     "text_length": 3763
@@ -13795,13 +13746,6 @@
     "url": "https://www.kanker.nl/kankersoorten/primaire-tumor-onbekend-pto/na-de-uitslag/ziekenhuizen-voor-primaire-tumor-onbekend-pto",
     "title": "Ziekenhuizen voor primaire tumor onbekend (PTO)",
     "text_length": 1173
-  },
-  {
-    "kankersoort": "primaire-tumor-onbekend-pto",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/primaire-tumor-onbekend-pto/onderzoeken/onderzoeken-bij-primaire-tumor-onbekend-pto",
-    "title": "Onderzoeken bij primaire tumor onbekend (PTO)",
-    "text_length": 7697
   },
   {
     "kankersoort": "prostaatkanker",
@@ -16116,13 +16060,6 @@
   {
     "kankersoort": "strottenhoofdkanker",
     "section": "gevolgen",
-    "url": "https://www.kanker.nl/kankersoorten/strottenhoofdkanker/gevolgen/reizen-met-het-tracheostoma",
-    "title": "Reizen met het tracheostoma",
-    "text_length": 1785
-  },
-  {
-    "kankersoort": "strottenhoofdkanker",
-    "section": "gevolgen",
     "url": "https://www.kanker.nl/kankersoorten/strottenhoofdkanker/gevolgen/seksualiteit-en-het-tracheostoma",
     "title": "Seksualiteit en het tracheostoma",
     "text_length": 1754
@@ -17579,21 +17516,7 @@
   {
     "kankersoort": "wekedelentumoren-wekedelensarcomen",
     "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/algemeen/informatie-over-de-weke-delen-0",
-    "title": "De weke delen",
-    "text_length": 1861
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "algemeen",
     "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/algemeen/oorzaken-en-risicofactoren-van-wekedelensarcomen",
-    "title": "Oorzaken en risicofactoren van wekedelensarcomen",
-    "text_length": 1443
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/algemeen/oorzaken-van-wekedelensarcomen-0",
     "title": "Oorzaken en risicofactoren van wekedelensarcomen",
     "text_length": 1443
   },
@@ -17614,21 +17537,7 @@
   {
     "kankersoort": "wekedelentumoren-wekedelensarcomen",
     "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/algemeen/symptomen-van-wekedelensarcomen-0",
-    "title": "Symptomen van wekedelensarcomen",
-    "text_length": 2295
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "algemeen",
     "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/algemeen/wat-is-een-wekedelensarcoom",
-    "title": "Wat is een wekedelensarcoom?",
-    "text_length": 3360
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/algemeen/wat-is-een-wekedelensarcoom-0",
     "title": "Wat is een wekedelensarcoom?",
     "text_length": 3360
   },
@@ -17663,21 +17572,7 @@
   {
     "kankersoort": "wekedelentumoren-wekedelensarcomen",
     "section": "behandelingen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/behandelingen/bestraling-bij-een-wekedelensarcoom-0",
-    "title": "Bestraling bij een wekedelensarcoom",
-    "text_length": 1992
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "behandelingen",
     "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/behandelingen/chemotherapie-bij-een-wekedelensarcoom",
-    "title": "Chemotherapie bij een wekedelensarcoom",
-    "text_length": 2028
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "behandelingen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/behandelingen/chemotherapie-bij-een-wekedelensarcoom-0",
     "title": "Chemotherapie bij een wekedelensarcoom",
     "text_length": 2028
   },
@@ -17691,21 +17586,7 @@
   {
     "kankersoort": "wekedelentumoren-wekedelensarcomen",
     "section": "behandelingen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/behandelingen/doelgerichte-therapie-bij-een-wekedelensarcoom-0",
-    "title": "Doelgerichte therapie bij een wekedelensarcoom",
-    "text_length": 1423
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "behandelingen",
     "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/behandelingen/nazorg-en-controle-bij-een-wekedelensarcoom",
-    "title": "Controles en nazorg bij een wekedelensarcoom",
-    "text_length": 748
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "behandelingen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/behandelingen/nazorg-en-controle-bij-een-wekedelensarcoom-0",
     "title": "Controles en nazorg bij een wekedelensarcoom",
     "text_length": 748
   },
@@ -17719,21 +17600,7 @@
   {
     "kankersoort": "wekedelentumoren-wekedelensarcomen",
     "section": "behandelingen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/behandelingen/operatie-bij-een-wekedelensarcoom-0",
-    "title": "Operatie bij een wekedelensarcoom",
-    "text_length": 2320
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "behandelingen",
     "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/behandelingen/regionale-perfusie-bij-een-wekedelensarcoom",
-    "title": "Regionale perfusie bij een wekedelensarcoom",
-    "text_length": 1161
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "behandelingen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/behandelingen/regionale-perfusie-bij-een-wekedelensarcoom-0",
     "title": "Regionale perfusie bij een wekedelensarcoom",
     "text_length": 1161
   },
@@ -17802,55 +17669,6 @@
   },
   {
     "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "gevolgen",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/gevolgen/gevolgen-van-een-wekedelensarcoom-0",
-    "title": "Gevolgen van een wekedelensarcoom",
-    "text_length": 1745
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoek-en-diagnose/biopsie",
-    "title": "Biopsie bij een wekedelensarcoom",
-    "text_length": 2304
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoek-en-diagnose/ct-scan-bij-wekedelentumoren",
-    "title": "CT-scan bij een wekedelensarcoom",
-    "text_length": 2750
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoek-en-diagnose/echografie",
-    "title": "Echografie bij een wekedelensarcoom",
-    "text_length": 1319
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoek-en-diagnose/mri-scan",
-    "title": "MRI-scan bij een wekedelensarcoom",
-    "text_length": 3108
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoek-en-diagnose/pet-ct-scan-bij-sarcomen",
-    "title": "PET-CT-scan bij een wekedelensarcoom",
-    "text_length": 2027
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoek-en-diagnose/rontgenfoto",
-    "title": "Röntgenfoto bij een wekedelensarcoom",
-    "text_length": 1362
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
     "section": "onderzoeken",
     "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken",
     "title": "Onderzoeken bij wekedelensarcomen",
@@ -17866,21 +17684,7 @@
   {
     "kankersoort": "wekedelentumoren-wekedelensarcomen",
     "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/biopsie-bij-een-wekedelensarcoom-0",
-    "title": "Biopsie bij een wekedelensarcoom",
-    "text_length": 2304
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
     "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/ct-scan-bij-een-wekedelensarcoom",
-    "title": "CT-scan bij een wekedelensarcoom",
-    "text_length": 2750
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/ct-scan-bij-een-wekedelensarcoom-0",
     "title": "CT-scan bij een wekedelensarcoom",
     "text_length": 2750
   },
@@ -17894,21 +17698,7 @@
   {
     "kankersoort": "wekedelentumoren-wekedelensarcomen",
     "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/echografie-bij-een-wekedelensarcoom-0",
-    "title": "Echografie bij een wekedelensarcoom",
-    "text_length": 1319
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
     "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/mri-scan-bij-een-wekedelensarcoom",
-    "title": "MRI-scan bij een wekedelensarcoom",
-    "text_length": 3108
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/mri-scan-bij-een-wekedelensarcoom-0",
     "title": "MRI-scan bij een wekedelensarcoom",
     "text_length": 3108
   },
@@ -17922,13 +17712,6 @@
   {
     "kankersoort": "wekedelentumoren-wekedelensarcomen",
     "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/onderzoeken-bij-wekedelensarcomen-0",
-    "title": "Onderzoeken bij wekedelensarcomen",
-    "text_length": 1722
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
     "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/pet-ct-scan-bij-een-wekedelensarcoom",
     "title": "PET-CT-scan bij een wekedelensarcoom",
     "text_length": 2027
@@ -17936,21 +17719,7 @@
   {
     "kankersoort": "wekedelentumoren-wekedelensarcomen",
     "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/pet-ct-scan-bij-een-wekedelensarcoom-0",
-    "title": "PET-CT-scan bij een wekedelensarcoom",
-    "text_length": 2027
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
     "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/rontgenfoto-bij-een-wekedelensarcoom",
-    "title": "Röntgenfoto bij een wekedelensarcoom",
-    "text_length": 1362
-  },
-  {
-    "kankersoort": "wekedelentumoren-wekedelensarcomen",
-    "section": "onderzoeken",
-    "url": "https://www.kanker.nl/kankersoorten/wekedelentumoren-wekedelensarcomen/onderzoeken/rontgenfoto-bij-een-wekedelensarcoom-0",
     "title": "Röntgenfoto bij een wekedelensarcoom",
     "text_length": 1362
   },
