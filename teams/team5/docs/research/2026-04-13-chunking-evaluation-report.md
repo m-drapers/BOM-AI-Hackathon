@@ -1,7 +1,8 @@
 # Comparative Evaluation of Chunking Strategies for Retrieval-Augmented Generation in a Dutch Cancer Information System
 
-**Authors:** Team 5, BrabantHack_26 Hackathon (IKNL Med Tech Track)
+**Author:** Ralph Schraven
 **Date:** April 13, 2026
+**Event:** BrabantHack_26 Hackathon — IKNL Med Tech Track
 
 ## Abstract
 
@@ -9,11 +10,27 @@ We evaluate five text chunking strategies for a retrieval-augmented generation (
 
 ## 1. Introduction
 
-Cancer patients and their families increasingly use online resources for health information. The Dutch national cancer registry (IKNL) maintains kanker.nl, a comprehensive patient information website covering 87 cancer types with 2,816 pages of reviewed medical content. To make this information more accessible, we built a conversational chatbot that uses retrieval-augmented generation to answer natural-language questions from trusted sources.
+### 1.1 The Information Access Problem in Cancer Care
 
-A critical design decision in any RAG system is how to chunk source documents before embedding them into a vector store. Poor chunking leads to missed relevant results, irrelevant retrievals, or broken semantic units that confuse the generation step. This is particularly important for medical text where splitting a symptom description mid-sentence could mislead patients.
+Each year, over 130,000 people in the Netherlands receive a cancer diagnosis. For patients and their families, the period following diagnosis is marked by an urgent need for reliable, understandable information about symptoms, treatment options, side effects, and life after treatment. While the Dutch national cancer registry (IKNL) maintains kanker.nl — a comprehensive, clinician-reviewed patient information website covering 87 cancer types with 2,816 pages — navigating this volume of content to find the specific answer to a personal question remains challenging. Patients may not know the medical terminology to search effectively, may be overwhelmed by the breadth of information, or may struggle to identify which content is relevant to their specific situation.
 
-We compare five chunking strategies in a controlled offline evaluation and report which approach best serves the three most common query patterns in cancer patient information seeking.
+Conversational AI systems built on retrieval-augmented generation (RAG) offer a promising approach to this access problem. By allowing patients to ask questions in natural language and retrieving relevant passages from trusted sources, a RAG-based chatbot can bridge the gap between comprehensive medical content and individual information needs — without generating potentially harmful unsupervised medical advice, since the system retrieves and cites rather than fabricates.
+
+### 1.2 The Chunking Challenge
+
+A critical and underexplored design decision in any RAG system is how to chunk source documents before embedding them into a vector store. The chunking strategy directly determines what the retrieval system can find: too-large chunks dilute embedding quality and waste context window space; too-small chunks lose semantic coherence; arbitrarily-split chunks break concepts in half, potentially misleading users. This is particularly consequential for medical text, where splitting a symptom description mid-sentence — e.g., separating "Bloed of slijm in je ontlasting kan door darmkanker komen" from its explanatory follow-up — could cause a patient to miss critical information or misinterpret what they find.
+
+Despite the importance of this decision, most RAG systems use a default fixed-window chunker with little empirical justification. Published evaluations of chunking strategies in production medical RAG systems are scarce, and none that we are aware of address Dutch-language cancer patient information specifically.
+
+### 1.3 Contributions
+
+We present a controlled evaluation of five chunking strategies for a Dutch cancer information RAG system, comparing fixed-window, sentence-aware, paragraph-level, semantic, and hybrid chunking across 30 test queries in three clinical categories. Our contributions are:
+
+1. **Empirical comparison** of five chunking strategies on 2,622 Dutch cancer patient information pages, showing sentence-aware chunking improves MRR by 40% and Recall@5 by 9% over the fixed-window baseline.
+2. **Chunk-size optimization** confirming 300 words as the optimal boundary for this corpus and embedding model.
+3. **Contextual enrichment** — a zero-cost technique of prepending page metadata to chunks before embedding that improves disambiguation between similar content across cancer types.
+4. **An open-source AB testing framework** for systematic comparison of RAG components, reusable beyond chunking.
+5. **Analysis of failure modes** per query category, revealing that "living with cancer" queries are the hardest retrieval challenge and benefit most from sentence-level coherence.
 
 ## 2. Data and System Description
 
@@ -265,13 +282,37 @@ Sentence-aware chunking with 300-word maximum chunk size and contextual enrichme
 
 The key insight is that for short, structured medical text with an FAQ-style access pattern, preserving sentence-level semantic coherence matters more than sophisticated embedding-based boundary detection. The embedding model's 512-token context window is the binding constraint — strategies that produce chunks exceeding this limit (semantic chunking, avg 441 words) pay a truncation penalty that offsets their theoretical advantages.
 
-### Future Work
+### Future Work and Broader Implications
 
-1. **Isolated enrichment evaluation.** Measure the effect of contextual chunk enrichment independently from the chunking strategy change.
-2. **Embedding model upgrade.** Evaluate `multilingual-e5-large` (1024 tokens) to determine whether the larger context window changes the optimal strategy, particularly for semantic chunking.
-3. **Cross-encoder reranking.** Add a reranking step after retrieval using a cross-encoder model (e.g., `cross-encoder/ms-marco-multilingual-MiniLM-L6-v2`), which is orthogonal to chunking improvements.
-4. **End-to-end evaluation.** Measure answer quality (not just retrieval quality) using human annotators or the system's existing thumbs-up/thumbs-down feedback mechanism.
-5. **Late chunking.** Evaluate the Jina late chunking approach with a long-context model, which would combine the benefits of sentence-aware splitting with document-level context awareness.
+This evaluation opens several promising directions for both this system and the broader field of medical RAG.
+
+**Immediate improvements (low effort, high expected impact):**
+
+1. **Isolated enrichment evaluation.** We deployed contextual enrichment alongside the chunking change. A controlled experiment isolating enrichment's effect would quantify its contribution and inform whether metadata-based enrichment (zero cost) approaches LLM-generated contextual enrichment (Anthropic's approach, higher cost) for structured medical content.
+
+2. **Cross-encoder reranking.** Adding a reranking step after retrieval using a cross-encoder model (e.g., `cross-encoder/ms-marco-multilingual-MiniLM-L6-v2`) is orthogonal to chunking improvements and could stack an additional 10-20% improvement according to the literature.
+
+**Infrastructure upgrades (medium effort, potentially transformative):**
+
+3. **Embedding model upgrade.** Evaluating `multilingual-e5-large` (1024 tokens, 1024 dimensions) would determine whether the larger context window changes the optimal strategy. Semantic chunking's truncation penalty — identified in Section 7.2 as the reason it underperforms on MRR despite leading on recall — would be substantially reduced with a 1024-token window, potentially making it competitive.
+
+4. **Late chunking.** The Jina late chunking approach (arXiv:2409.04701) embeds the full document through the transformer before pooling chunks, giving each chunk awareness of its full document context. This requires a long-context model (8192+ tokens) but would combine the benefits of sentence-aware splitting with document-level disambiguation — potentially outperforming both our current approach and contextual enrichment.
+
+**Evaluation and deployment:**
+
+5. **End-to-end evaluation.** Our evaluation measures retrieval quality only. Measuring answer quality using human annotators — or the system's existing thumbs-up/thumbs-down feedback mechanism — would determine whether retrieval improvements translate to better patient experiences.
+
+6. **Longitudinal A/B testing in production.** With the AB testing framework developed for this study, the system could run live comparisons on real user traffic, measuring not just retrieval metrics but user satisfaction, session length, and follow-up question rates.
+
+**Broader implications for medical RAG:**
+
+7. **Generalizability to other medical corpora.** Our finding that sentence-aware chunking dominates for short, structured patient information pages may not generalize to clinical guidelines, research papers, or unstructured clinical notes. Each document type likely has an optimal chunking strategy that should be empirically determined, not assumed.
+
+8. **Multilingual medical RAG.** The kanker.nl corpus is Dutch, but IKNL's data and the embedding model used are multilingual. Evaluating whether the same chunking strategy is optimal across languages — or whether language-specific sentence boundary detection matters — would be valuable for international cancer information systems.
+
+## Acknowledgments
+
+This work was conducted as part of the BrabantHack_26 hackathon. The author thanks Team 5 members Danae Schillemans, Alysha den Exter, and Milou Drapers for their contributions to the chatbot system that this evaluation is built upon. The author gratefully acknowledges IKNL (Integraal Kankercentrum Nederland) for organizing the Med Tech track and providing access to the kanker.nl patient information data, and BOM (Brabantse Ontwikkelings-Maatschappij) for hosting the hackathon event.
 
 ## References
 
