@@ -16,6 +16,7 @@ dependencies = [
     "sse-starlette>=2.0.0",
     "aiosqlite>=0.20.0",
     "langgraph>=1.1.6",
+    "fastembed>=0.8.0",
 ]
 
 [project.optional-dependencies]
