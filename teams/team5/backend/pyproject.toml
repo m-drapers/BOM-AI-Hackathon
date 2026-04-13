@@ -17,6 +17,7 @@ dependencies = [
     "aiosqlite>=0.20.0",
     "langgraph>=1.1.6",
     "fastembed>=0.8.0",
+    "bm25s>=0.3.0",
 ]
 
 [project.optional-dependencies]
