@@ -20,9 +20,10 @@ logger = logging.getLogger(__name__)
 COLLECTION_NAME = "kanker_nl"
 DEFAULT_N_RESULTS = 5
 
-# RRF weights: 85% vector, 15% BM25F (grid-searched optimal: k=40, 85/15)
-RRF_VECTOR_WEIGHT = float(os.environ.get("RRF_VECTOR_WEIGHT", "0.85"))
-RRF_BM25_WEIGHT = float(os.environ.get("RRF_BM25_WEIGHT", "0.15"))
+# RRF weights: 86% vector, 14% BM25F (fine-tuned optimal: k=40, boost=2x)
+# Robust plateau: any config in k=[35-50], weights=[85-88]/[12-15] achieves same MRR
+RRF_VECTOR_WEIGHT = float(os.environ.get("RRF_VECTOR_WEIGHT", "0.86"))
+RRF_BM25_WEIGHT = float(os.environ.get("RRF_BM25_WEIGHT", "0.14"))
 # Set to "0" to disable RRF and use vector-only search
 RRF_ENABLED = os.environ.get("RRF_ENABLED", "1") != "0"
 
