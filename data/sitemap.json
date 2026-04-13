@@ -1,19 +1,5 @@
 [
   {
-    "kankersoort": "acute-lymfatische-leukemie",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/acute-lymfatische-leukemie",
-    "title": "De pagina die je zocht is helaas niet beschikbaar",
-    "text_length": 287
-  },
-  {
-    "kankersoort": "acute-myeloide-leukemie",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/acute-myeloide-leukemie",
-    "title": "De pagina die je zocht is helaas niet beschikbaar",
-    "text_length": 287
-  },
-  {
     "kankersoort": "alvleesklierkanker",
     "section": "algemeen",
     "url": "https://www.kanker.nl/kankersoorten/alvleesklierkanker",
@@ -2396,13 +2382,6 @@
   {
     "kankersoort": "borstkanker",
     "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/borstkanker/algemeen/lee",
-    "title": "De pagina die je zocht is helaas niet beschikbaar",
-    "text_length": 287
-  },
-  {
-    "kankersoort": "borstkanker",
-    "section": "algemeen",
     "url": "https://www.kanker.nl/kankersoorten/borstkanker/algemeen/oorzaken-en-risicofactoren-van-borstkanker",
     "title": "Oorzaken en risicofactoren van borstkanker",
     "text_length": 8653
@@ -2749,13 +2728,6 @@
     "url": "https://www.kanker.nl/kankersoorten/borstkanker/gevolgen/hartfalen-na-borstkanker",
     "title": "Hartfalen na borstkanker",
     "text_length": 1513
-  },
-  {
-    "kankersoort": "borstkanker",
-    "section": "gevolgen",
-    "url": "https://www.kanker.nl/kankersoorten/borstkanker/gevolgen/huidklachten-bij-borstkanker",
-    "title": "De pagina die je zocht is helaas niet beschikbaar",
-    "text_length": 287
   },
   {
     "kankersoort": "borstkanker",
@@ -4095,20 +4067,6 @@
     "text_length": 2888
   },
   {
-    "kankersoort": "chronische-lymfatische-leukemie",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/chronische-lymfatische-leukemie",
-    "title": "De pagina die je zocht is helaas niet beschikbaar",
-    "text_length": 287
-  },
-  {
-    "kankersoort": "chronische-myeloide-leukemie",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/chronische-myeloide-leukemie",
-    "title": "De pagina die je zocht is helaas niet beschikbaar",
-    "text_length": 287
-  },
-  {
     "kankersoort": "darmkanker-dikkedarmkanker",
     "section": "algemeen",
     "url": "https://www.kanker.nl/kankersoorten/darmkanker-dikkedarmkanker",
@@ -4394,13 +4352,6 @@
     "url": "https://www.kanker.nl/kankersoorten/darmkanker-dikkedarmkanker/onderzoeken/onderzoeken-bij-darmkanker",
     "title": "Onderzoeken bij darmkanker",
     "text_length": 2868
-  },
-  {
-    "kankersoort": "dikkedarmkanker",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/dikkedarmkanker",
-    "title": "De pagina die je zocht is helaas niet beschikbaar",
-    "text_length": 287
   },
   {
     "kankersoort": "dunnedarmkanker",
@@ -5997,13 +5948,6 @@
     "url": "https://www.kanker.nl/kankersoorten/gastro-intestinale-stromale-tumor/onderzoeken/pet-scan-bij-een-gist",
     "title": "PET-CT-scan bij een GIST",
     "text_length": 1945
-  },
-  {
-    "kankersoort": "hairy-cell-leukemie",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/hairy-cell-leukemie",
-    "title": "De pagina die je zocht is helaas niet beschikbaar",
-    "text_length": 287
   },
   {
     "kankersoort": "hartkanker",
@@ -8055,13 +7999,6 @@
     "url": "https://www.kanker.nl/kankersoorten/lipkanker/onderzoeken/rontgenfoto-van-tanden-en-kaken-bij-lipkanker",
     "title": "Röntgenfoto van tanden en kaken bij lipkanker",
     "text_length": 1003
-  },
-  {
-    "kankersoort": "liposarcoom",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/liposarcoom",
-    "title": "De pagina die je zocht is helaas niet beschikbaar",
-    "text_length": 287
   },
   {
     "kankersoort": "longkanker",
@@ -12976,13 +12913,6 @@
     "url": "https://www.kanker.nl/kankersoorten/oorkanker/onderzoeken/pet-ct-scan-bij-oorkanker",
     "title": "PET-CT-scan bij oorkanker",
     "text_length": 2099
-  },
-  {
-    "kankersoort": "osteosarcoom",
-    "section": "algemeen",
-    "url": "https://www.kanker.nl/kankersoorten/osteosarcoom",
-    "title": "De pagina die je zocht is helaas niet beschikbaar",
-    "text_length": 287
   },
   {
     "kankersoort": "papil-van-vater-kanker",
